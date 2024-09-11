@@ -1,14 +1,14 @@
 import java.util.List;
 
 public class Especialidad {
-    private String nombre;
+    private String NombreEspecialidad;
     private String descripcion;
     private List<String> asignaturas;
     private int duracionSemestres;
 
     // Constructor
     public Especialidad(String nombre, String descripcion, List<String> asignaturas, int duracionSemestres) {
-        this.nombre = nombre;
+        this.NombreEspecialidad = nombre;
         this.descripcion = descripcion;
         this.asignaturas = asignaturas;
         this.duracionSemestres = duracionSemestres;
@@ -16,11 +16,11 @@ public class Especialidad {
 
     // Getters y Setters
     public String getNombre() {
-        return nombre;
+        return NombreEspecialidad;
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        this.NombreEspecialidad = nombre;
     }
 
     public String getDescripcion() {
