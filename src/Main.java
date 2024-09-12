@@ -52,7 +52,7 @@ public class Main {
         int duracion = scanner.nextInt();
         scanner.nextLine(); // Consumir la nueva línea
 
-        List<String> asignaturas = new ArrayList<>();
+        List<String> a signaturas = new ArrayList<>();
         String asignatura;
 
         // Ciclo para agregar asignaturas a la especialidad
