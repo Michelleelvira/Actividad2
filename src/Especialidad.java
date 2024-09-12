@@ -54,7 +54,7 @@ public class Especialidad {
 
     // Método para mostrar información de la especialidad
     public void mostrarInformacion() {
-        System.out.println("Especialidad: " + nombre);
+        System.out.println("Especialidad: " + NombreEspecialidad);
         System.out.println("Descripción: " + descripcion);
         System.out.println("Duración en semestres: " + duracionSemestres);
         System.out.println("Asignaturas:");
