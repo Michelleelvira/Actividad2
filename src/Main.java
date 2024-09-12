@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static List<Especialidad> especialidades = new ArrayList<>();
+    private static final List<Especialidad> especialidades = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
